@@ -46,6 +46,15 @@ div main section a{
         grid-row-gap: 30px;
         grid-column-gap: 30px;
     }
+
+    #links{
+        display: grid;
+        justify-content: center;
+        align-items: center;
+        grid-template-columns: auto;
+        grid-row-gap: 25px;
+        grid-column-gap: 25px;
+    }
 }
 
 @media screen and (max-width: 1000px){
@@ -56,5 +65,14 @@ div main section a{
         grid-template-columns: auto;
         grid-row-gap: 30px;
         grid-column-gap: 30px;
+    }
+
+    #links{
+        display: grid;
+        justify-content: center;
+        align-items: center;
+        grid-template-columns: auto;
+        grid-row-gap: 25px;
+        grid-column-gap: 25px;
     }
 }
