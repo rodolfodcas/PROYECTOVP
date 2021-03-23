@@ -28,6 +28,15 @@ div main section a{
     grid-column-gap: 25px;
 }
 
+#links1{
+    display: grid;
+    justify-content: center;
+    align-items: center;
+    grid-template-columns: auto auto;
+    grid-row-gap: 25px;
+    grid-column-gap: 25px;
+}
+
 #recuperarc{
     display: grid;
     justify-content: center;
@@ -55,6 +64,15 @@ div main section a{
         grid-row-gap: 25px;
         grid-column-gap: 25px;
     }
+
+    #links1{
+        display: grid;
+        justify-content: center;
+        align-items: center;
+        grid-template-columns: auto;
+        grid-row-gap: 25px;
+        grid-column-gap: 25px;
+    }
 }
 
 @media screen and (max-width: 1000px){
@@ -71,7 +89,16 @@ div main section a{
         display: grid;
         justify-content: center;
         align-items: center;
-        grid-template-columns: auto;
+        grid-template-columns: auto auto;
+        grid-row-gap: 25px;
+        grid-column-gap: 25px;
+    }
+
+    #links1{
+        display: grid;
+        justify-content: center;
+        align-items: center;
+        grid-template-columns: auto auto;
         grid-row-gap: 25px;
         grid-column-gap: 25px;
     }
