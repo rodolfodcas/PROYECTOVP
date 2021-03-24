@@ -46,6 +46,33 @@ div main section a{
     grid-column-gap: 100px;
 }
 
+/*#filtro{
+    filter:drop-shadow( 0 0 20px green);
+}*/
+
+#carta{
+    border-radius: 20px;
+    box-shadow: 0 0 30px green;
+}
+
+::-webkit-scrollbar{
+    width: 10px;
+}
+
+::-webkit-scrollbar-track{
+    background: #f1f1f1;
+    border-radius: 6px;
+}
+
+::-webkit-scrollbar-thumb{
+    background: green;
+    border-radius: 6px;
+}
+
+::-webkit-scrollbar-thumb:hover{
+    background: darkgreen;
+}
+
 @media screen and (max-width: 600px){
     #recuperarc{
         display: grid;
