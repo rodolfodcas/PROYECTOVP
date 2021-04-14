@@ -1,0 +1,41 @@
+/*Dark mode*/
+html[theme='dark-mode']{
+    filter: invert(1) hue-rotate(180deg);
+}
+
+html{
+    filter: invert(1) hue hue-rotate(180deg);
+    /*se añade una transición para que el cambio no sea brusco*/
+    transition: color 300ms, background-color 300ms;
+}
+
+/*html img{
+    con esto se evita que los colores de las imagenes cambien
+    filter: invert(1) hue-rotate(180deg);
+}*/
+
+#url{
+    color: black;
+    text-decoration: none;
+}
+
+/*prototipo*/
+#conectados{
+    display: grid;
+    align-items: center;
+    justify-content: center;
+    grid-template-columns: auto auto auto;
+    grid-row-gap: 15px;
+    grid-column-gap: 150px;
+}
+
+@media screen and (max-width: 600px){
+    #conectados{
+        display: grid;
+        align-items: center;
+        justify-content: center;
+        grid-template-columns: auto auto;
+        grid-row-gap: 15px;
+        grid-column-gap: 15px;
+    }
+}
